@@ -1,0 +1,18 @@
+# For more information about the available options please visit: http://go/catalog-info (VPN required)
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    github.com/project-slug: Unity-Technologies/shading-rate-demo
+    backstage.io/techdocs-ref: dir:.
+  name: shading-rate-demo
+  description: "This project demonstrates how to set the shading rate of Renderer Features for the Universal Rendering Pipeline"
+  labels:
+    costcenter: "5054"
+  tags:
+    - planned-public
+    - enterprise
+spec:
+  type: library
+  lifecycle: production
+  owner: Unity-Technologies/gfx-device
